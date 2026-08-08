@@ -4,6 +4,6 @@
   "private": true,
   "description": "Small disposable public repo used to smoke-test agent containers (PLATFORM-038). Not a real application.",
   "scripts": {
-    "test": "node --test *.test.mjs"
+    "test": "node --test *.test.mjs scripts/*.test.mjs"
   }
 }
